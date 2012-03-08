@@ -13,7 +13,7 @@ cin >> fname;
 cout << "Please enter your last name:" << endl;
 cin >> lname;
 
-cout << "Hello, " << fname << lname << "Welcome to the World" << endl;
+cout << "Hello, " << fname << lname << " You rule the World!" << endl;
 
 return 0;
 
