@@ -1,7 +1,7 @@
-#include<iostream>
 /*************************************************************************
 *Demonstration of aweseomness
 *************************************************************************/
+#include<iostream>
 using namespace std;
 
 int main() {
@@ -9,13 +9,13 @@ int main() {
 char fname[50];
 char lname[50];
 
-cout << "Please enter your first name:" << endl;
-cin >> fname;
+std::cout << "Please enter your first name:" << endl;
+std::cin >> fname;
 
-cout << "Please enter your last name:" << endl;
-cin >> lname;
+std::cout << "Please enter your last name:" << endl;
+std::cin >> lname;
 
-cout << "Hello, " << fname << lname << " You rule the World!" << endl;
+std::cout << "Hello, " << fname << lname << " You rule the World!" << endl;
 
 return 0;
 
